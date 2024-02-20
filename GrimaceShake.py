@@ -20,8 +20,8 @@ def listOfGasStations():
 # by calling the listOfGasStations function if we are on low or quarter tank
 
 def gasLevelAlert():
-    milesToGasOnLow = random.uniform(1, 25)
-    milesToGasOnQT = random.uniform(25.1, 50)
+    milesToGasOnLow = round(random.uniform(1, 25),1)
+    milesToGasOnQT = round(random.uniform(25.1, 50),1)
     #gasLevelGauge = gasLevelGauge()
     print(milesToGasOnLow)
     print(milesToGasOnQT)
