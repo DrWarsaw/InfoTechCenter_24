@@ -8,9 +8,30 @@ from time import sleep
 
 #Create a funtion that randomly chooses the weather from a list
 def weather():
-    weatherForcast = ["Snowing", "Blizzard", "Raining", "Foggy", "Windy", "Icy", "Sunny"]
+    weatherForcast = ["snowy", "blizzard", "raining", "foggy", "windy", "icy", "sunny"]
     weatherConditions = random.choice(weatherForcast)
     return weatherConditions
 
 
-print(weather())
+weatherAlert = weather()
+
+def vehicleResponseSystem():
+    if weatherAlert == "snowy":
+        print("\nNational weather Setvive has updated our alarm by 30 minutes because of forcast of",weatherAlert,
+              "weather conditions.")
+        print("VRS has been engaged only allowing you to drive 50mph")
+    elif weatherAlert == "blizzard":
+        print("\nNational weather Setvive has updated our alarm by 45 minutes because of forcast of",weatherAlert,
+              "weather conditions.")
+        print("VRS has been engaged only allowing you to drive 40mph")
+    elif weatherAlert == "raining":
+        print("\nNational weather Setvive has updated our alarm by 20 minutes because of forcast of",weatherAlert,
+              "weather conditions.")
+        print("VRS has been engaged only allowing you to drive 65mph")
+
+
+
+
+
+
+vehicleResponseSystem()
