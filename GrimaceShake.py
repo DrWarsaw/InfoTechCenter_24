@@ -28,7 +28,7 @@ while x != 20:
     if x ==20:
         print("\n\nOperating System Booted Up - You ARE Big Hacka Man - Access Granted!")
 #Gasoline branch starts here
-<<<<<<< HEAD
+
 print("***********************")
 =======
 print("\n**************************\n")
@@ -134,8 +134,4 @@ def vehicleResponseSystem():
 
 vehicleResponseSystem()
 
-<<<<<<< HEAD
- 
 
-=======
->>>>>>> BetaTestDev
