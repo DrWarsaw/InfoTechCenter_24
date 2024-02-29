@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> BetaTestDev
 
 #import libraries here
 import time
@@ -30,9 +26,9 @@ while x != 20:
 #Gasoline branch starts here
 
 print("***********************")
-=======
+
 print("\n**************************\n")
->>>>>>> BetaTestDev
+
 print("Gasoline Branch\n\n")
 
 
